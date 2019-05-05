@@ -1,0 +1,36 @@
+#diamond {
+
+    max-width: 100px;
+    max-height: 100px;
+}
+
+#rose{
+
+    max-width: 100px;
+    max-height: 100px;
+}
+#amethyst {
+
+    max-width: 100px;
+    max-height: 100px;
+}
+#quartz {
+    max-width: 100px;
+    max-height: 100px;
+}
+body{
+    background-image:url("https://images.freecreatives.com/wp-content/uploads/2016/04/Solid-Black-HD-Background-.jpg");
+    margin: 50px;
+}
+#instructions{
+    color: antiquewhite;
+    margin: 20px;
+}
+
+h1{
+    font-family: 'Permanent Marker', cursive;
+    color: darkorange
+}
+h2{
+    color: darkcyan
+}

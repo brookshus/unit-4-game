@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="utf-8">
+	<title>Crystal Game</title>
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.js"integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src= "assets/javascript/game.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+</head>
+<body>
+<div>
+    <h1>Crystal Collector</h1>
+</div>
+
+<div class= row id="instructions"> 
+    <p>
+        You will be given a random number st the start of the game.
+    </p> 
+    <p>
+        There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.
+    </p>
+    <p>
+        You win the game by matching your total score to the random number, you lose the game if your total score goes above the random number.
+    </p>
+    <p>
+        The value of each crystal is hidden from you until you click on it.
+    </p>
+    <p>
+        Each time the game starts, the game will change the value of each crystal.
+    </p>
+
+</div>
+
+
+<br>
+
+
+        <img src="assets/images/kisspng-amethyst-gemstone-gemological-institute-of-america-amethyst-5ac8959c689c15.5297649115230949404285.png" id="amethyst">
+
+        <img src="assets/images/kisspng-gemological-institute-of-america-diamond-cut-engag-diamond-ring-5ad3f427805954.5586578615238400395257.png" id="diamond">
+
+        <img src="assets/images/kisspng-natural-crystals-amethyst-crystal-cluster-quartz-minerals-5b35e8e89d8881.0834490415302596886453.png" id="quartz">
+
+        <img src="assets/images/kisspng-rose-quartz-crystal-mineral-rock-crystal-pink-aesthetic-pretty-5b6e046c630103.6268657315339367484055.png" id="rose">
+    </div>
+</div>
+
+<div class="scoreboard">
+
+        <h2>You're a <span id="update"></span></h2>
+        <h2 id="guess">Get to the number: <span id="target"></span></h2>
+        <h2 id="score">Player Score: <span id="playerScore"></span></h2>
+        
+        <div class="wins-loss">
+        <h2><strong>Wins: </strong> <span id="win"></span></h2><br>
+        <h2><strong>Losses: </strong> <span id="loss"></span></h2>
+        </div>
+        
+</body>
